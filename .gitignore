@@ -1,0 +1,5 @@
+/phpunit.xml
+/composer.lock
+/phpstan.neon
+.ddev/
+vendor/

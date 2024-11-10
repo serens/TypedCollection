@@ -1,0 +1,29 @@
+{
+  "name": "serens/typed-collection",
+  "description": "A basic library to support typed collections",
+  "type": "library",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Sven Erens",
+      "email": "sven.erens@gmx.de"
+    }
+  ],
+  "require": {
+    "php": ">=8.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9",
+    "phpstan/phpstan": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Serens\\TypedCollection\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Serens\\TypedCollection\\Tests\\": "tests/"
+    }
+  }
+}
